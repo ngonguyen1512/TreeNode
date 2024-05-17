@@ -1,0 +1,41 @@
+.tree-node {
+  margin-left: 20px;
+  position: relative;
+  font-size: 14px;
+}
+
+.node-content {
+  margin: 3% 0;
+  padding: 2% 4%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: #e9ecef;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 2px;
+}
+
+.node-content:hover {
+  background-color: #ced4da;
+}
+
+.collapse-button {
+  margin-right: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.collapse-button:hover {
+  color: #0056b3;
+}
+
+.children {
+  margin-left: 20px;
+  border-left: 1px dashed #ccc;
+  padding-left: 10px;
+  margin-top: 5px;
+}
